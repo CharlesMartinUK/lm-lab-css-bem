@@ -1,7 +1,23 @@
-/* You can delete / re-write this img class  */
 
-img {
-    max-width: 200px;
+.block {
+	border:1px solid black;
+	padding:1em;
+	text-align:center;
+	box-shadow:10px 10px;
+	margin:2em;
 }
 
-/* Happy coding! */
+
+.darkSide {
+	background-color:grey;
+}
+
+.forceSide {
+	background-color:yellow;
+}
+
+.block__img {
+    max-width: 200px;
+	box-shadow:5px 5px;
+}
+

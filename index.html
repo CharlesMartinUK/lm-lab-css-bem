@@ -7,23 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <title>BEM Notation & OOCSS: Writing scaleable CSS</title>
+	
 </head>
 
 <body>
     <h1>BEM Wars</h1>
-    <div class="container">
-        <div>
+    <div class="container" >
+        <div class="block darkSide">
             <h2>The Dark Side</h2>
-            <img src="./images/vader.jpeg">
+            <img src="./images/vader.jpeg" class="block__img" >
             <p>Nesting!</p>
             <p>Conflict!</p>
             <p>Specificity Wars!</p>
             <p>Cookies</p>
         </div>
 
-        <div>
+        <div class="block forceSide">
             <h2>The Force</h2>
-            <img src="./images/yoda.jpeg">
+            <img src="./images/yoda.jpeg" class="block__img">
             <p>Love</p>
             <p>Beauty</p>
             <p>CSS that Scales!</p>
